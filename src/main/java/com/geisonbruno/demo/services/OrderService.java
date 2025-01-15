@@ -20,6 +20,6 @@ public class OrderService {
 
     public Order findById(Long id) {
         Optional<Order> obj = repository.findById(id);
-        return obj.get();
+        return obj.orElseThrow(() -> new RuntimeException("Order not found"));
     }
 }
