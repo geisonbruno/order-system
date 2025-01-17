@@ -20,7 +20,9 @@ public class ProductDTO {
         this.description = product.getDescription();
         this.price = product.getPrice();
         this.imgUrl = product.getImgUrl();
-        this.categories = product.getCategories().stream().map(CategoryDTO::new).collect(Collectors.toSet());
+        this.categories = product.getCategories().stream()
+                .map(CategoryDTO::new)
+                .collect(Collectors.toSet());
     }
 
     public Long getId() {
