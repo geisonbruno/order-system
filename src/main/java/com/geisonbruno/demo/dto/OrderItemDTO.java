@@ -7,11 +7,13 @@ public class OrderItemDTO {
 
     private Integer quantity;
     private Double price;
+    private Double subTotal;
     private ProductDTO product;
 
     public OrderItemDTO(OrderItem orderItem) {
         this.quantity = orderItem.getQuantity();
         this.price = orderItem.getPrice();
+        this.subTotal = orderItem.getSubTotal();
         this.product = new ProductDTO(orderItem.getProduct());
     }
 
@@ -25,5 +27,9 @@ public class OrderItemDTO {
 
     public ProductDTO getProduct() {
         return product;
+    }
+
+    public Double getSubTotal() {
+        return subTotal;
     }
 }

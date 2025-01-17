@@ -13,6 +13,9 @@ public class OrderDTO {
     private String orderStatus;
     private UserDTO client;
     private Set<OrderItemDTO> items;
+    private PaymentDTO payment;
+    private Double total;
+
 
     public OrderDTO(Order order) {
         this.id = order.getId();
@@ -20,6 +23,8 @@ public class OrderDTO {
         this.orderStatus = order.getOrderStatus().name();
         this.client = new UserDTO(order.getClient());
         this.items = order.getItems().stream().map(OrderItemDTO::new).collect(Collectors.toSet());
+        this.payment = order.getPayment() != null ? new PaymentDTO(order.getPayment()) : null;
+        this.total = order.getTotal();
     }
 
     public Long getId() {
@@ -40,5 +45,13 @@ public class OrderDTO {
 
     public Set<OrderItemDTO> getItems() {
         return items;
+    }
+
+    public Double getTotal() {
+        return total;
+    }
+
+    public PaymentDTO getPayment() {
+        return payment;
     }
 }
