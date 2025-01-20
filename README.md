@@ -59,7 +59,7 @@ Este endpoint permite registrar um pagamento para um pedido específico.
 Este endpoint retorna a lista de todos os produtos cadastrados no sistema.
 
 
-## 🚀 Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 ***
 
 - Java 17
