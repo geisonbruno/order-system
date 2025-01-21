@@ -18,6 +18,7 @@ public class CategoryResource {
     @Autowired
     private CategoryService service;
 
+    // Buscando todas as categorias
     @GetMapping
     public ResponseEntity<List<Category>> findAll() {
 
@@ -25,6 +26,7 @@ public class CategoryResource {
         return ResponseEntity.ok().body(list);
     }
 
+    // Buscando categoria por ID
     @GetMapping(value = "/{id}")
     public ResponseEntity<Category> findById(@PathVariable Long id) {
 
