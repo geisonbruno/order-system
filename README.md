@@ -1,11 +1,11 @@
-# Order Management System - REST API
+# Order System - REST API
 
 ## 📚 Sobre o Projeto
 ***
 
-Esta API foi projetada para gerenciar pedidos em um sistema de e-commerce. Ela inclui funcionalidades para centralizar a criação e consulta de pedidos, usuários, produtos, categorias e pagamentos.
+API para gerenciamento de pedidos; Explorando Conceitos de Spring Boot, JPA e Hibernate
 
-Utilizando o framework Spring Boot em conjunto com Spring Data JPA, o sistema oferece uma solução robusta para gerenciar o ciclo completo de um pedido, desde a criação até a atualização de status.
+Utilizando o framework Spring Boot em conjunto com Spring Data JPA, o sistema oferece uma solução para gerenciar o ciclo completo de um pedido, desde a criação até a atualização de status.
 
 ## 📖 Tabela de Conteúdo
 ***
