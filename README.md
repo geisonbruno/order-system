@@ -1,11 +1,14 @@
-# Order Management System - REST API
+# Order System - REST API
 
 ## 📚 Sobre o Projeto
 ***
 
-Esta API foi projetada para gerenciar pedidos em um sistema de e-commerce. Ela inclui funcionalidades para centralizar a criação e consulta de pedidos, usuários, produtos, categorias e pagamentos.
+API desenvolvida com Spring Boot, JPA e Hibernate para simulação de gestão de pedidos em um e-commerce. O projeto aplica boas práticas de arquitetura, implementa CRUD completo, gerencia relacionamentos complexos e trata exceções personalizadas.
 
-Utilizando o framework Spring Boot em conjunto com Spring Data JPA, o sistema oferece uma solução robusta para gerenciar o ciclo completo de um pedido, desde a criação até a atualização de status.
+A base de dados iniciei em H2 para testes e migrou para PostgreSQL em produção, com deploy final no Heroku. Um exemplo prático da jornada completa de desenvolvimento de uma API.
+## 🚀 Teste no Postman 
+
+🔗 Base URL: https://order-system-25-5c498daa7ad7.herokuapp.com
 
 ## 📖 Tabela de Conteúdo
 ***
