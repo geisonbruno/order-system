@@ -109,10 +109,11 @@ Este endpoint retorna todas as categorias disponíveis no sistema.
 - Hibernate
 - Maven
 - Swagger
+- PostgreSQL
+- Heroku
 
 ## 🔗 Próximos Passos
 *** 
 
 - Adicionar autenticação e autorização com JWT.
 - Implementar testes unitários para garantir maior cobertura.
-- Configurar suporte a banco de dados relacional como PostgreSQL ou MySQL.
