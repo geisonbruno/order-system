@@ -3,9 +3,10 @@
 ## 📚 Sobre o Projeto
 ***
 
-API desenvolvida com Spring Boot, JPA e Hibernate para simulação de gestão de pedidos em um e-commerce. O projeto aplica boas práticas de arquitetura, implementa CRUD completo, gerencia relacionamentos complexos e trata exceções personalizadas.
+API desenvolvida com Spring Boot, JPA e Hibernate. Ela foi projetada para gerenciar pedidos, usuários, produtos e pagamentos, o que a torna aplicável a diversos cenários. O projeto aplica boas práticas de arquitetura, implementa CRUD completo, gerencia relacionamentos complexos e trata exceções personalizadas.
 
 A base de dados iniciei em H2 para testes e migrou para PostgreSQL em produção, com deploy final no Heroku. Um exemplo prático da jornada completa de desenvolvimento de uma API.
+
 ## 🚀 Teste no Postman 
 
 🔗 Base URL: https://order-system-25-5c498daa7ad7.herokuapp.com
