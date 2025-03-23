@@ -3,9 +3,9 @@
 ## 📚 Sobre o Projeto
 ***
 
-API desenvolvida com Spring Boot, JPA e Hibernate. Ela foi projetada para gerenciar pedidos, usuários, produtos e pagamentos, o que a torna aplicável a diversos cenários. O projeto aplica boas práticas de arquitetura, implementa CRUD completo, gerencia relacionamentos complexos e trata exceções personalizadas.
+API desenvolvida com Spring Boot, JPA e Hibernate. Projetada para gerenciar pedidos, usuários, produtos e pagamentos, o que a torna aplicável a diversos cenários. O projeto aplica boas práticas de arquitetura, implementa CRUD completo, gerencia relacionamentos complexos e trata exceções personalizadas.
 
-A base de dados iniciei em H2 para testes e migrou para PostgreSQL em produção, com deploy final no Heroku. Um exemplo prático da jornada completa de desenvolvimento de uma API.
+A base de dados iniciei em H2 para testes e migrou para PostgreSQL em produção, com deploy final no Heroku. 
 
 ## 🚀 Teste no Postman 
 
