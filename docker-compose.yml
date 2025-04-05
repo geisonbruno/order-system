@@ -1,0 +1,26 @@
+services:
+  app:
+    image: geisonbruno7/imagem-order-system-backend:0.0.1-RELEASE
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+    environment:
+      DB_URL: jdbc:postgresql://db:5432/order-system
+      DB_USERNAME: postgres
+      DB_PASSWORD: gbruno11
+
+  db:
+    image: postgres:15
+    restart: always
+    environment:
+      POSTGRES_DB: order-system
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: gbruno11
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
