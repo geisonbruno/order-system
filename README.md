@@ -1,18 +1,12 @@
 # Order System - REST API
 
 ## 📚 Sobre o Projeto
-***
 
 API desenvolvida com Spring Boot, JPA e Hibernate. Projetada para gerenciar pedidos, usuários, produtos e pagamentos, o que a torna aplicável a diversos cenários. O projeto aplica boas práticas de arquitetura, implementa CRUD completo, gerencia relacionamentos complexos e trata exceções personalizadas.
 
-A base de dados iniciei em H2 para testes e migrou para PostgreSQL em produção, com deploy final no Heroku. 
-
-## 🚀 Teste no Postman 
-
-🔗 Base URL: https://order-system-25-5c498daa7ad7.herokuapp.com
+A base de dados iniciei em H2 para testes e migrou para PostgreSQL em produção.
 
 ## 📖 Tabela de Conteúdo
-***
 - [Instalação](#-instalação)
 - [Como Usar](#-como-usar)
 - [Documentação da API (Swagger)](#-documentação-da-api-swagger)
@@ -20,7 +14,6 @@ A base de dados iniciei em H2 para testes e migrou para PostgreSQL em produção
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 
 ## 💻 Instalação
-***
 
 1. Clone o repositório
 ```bash
@@ -38,7 +31,6 @@ git clone https://github.com/seu-usuario/sistema-gestao-pedidos.git
    ```
 
 ## 🚀 Como Usar
-***
 
 Depois de iniciar a aplicação, a API REST estará disponível em:
 ```bash
@@ -46,7 +38,6 @@ http://localhost:8080
 ```
 
 ## 📘 Documentação da API (Swagger)
-***
 
  A API conta com uma UI para explorar os endpoints e realizar testes, implementada com SpringDoc OpenAPI.
 
@@ -56,7 +47,6 @@ http://localhost:8080
 A documentação inclui todos os detalhes dos endpoints, exemplos de requisições e respostas, facilitando a integração com a API.
 
 ## 📋 Endpoints da API
-***
 
 ### **Usuários**
 
@@ -110,7 +100,7 @@ Este endpoint retorna todas as categorias disponíveis no sistema.
 - Maven
 - Swagger
 - PostgreSQL
-- Heroku
+- Docker
 
 ## 🔗 Próximos Passos
 *** 
