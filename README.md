@@ -1,5 +1,10 @@
 # Order System - REST API
 
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white)
 ## 📚 Sobre o Projeto
 
 API desenvolvida com Spring Boot, JPA e Hibernate. Projetada para gerenciar pedidos, usuários, produtos e pagamentos, o que a torna aplicável a diversos cenários. O projeto aplica boas práticas de arquitetura, implementa CRUD completo, gerencia relacionamentos complexos e trata exceções personalizadas.
