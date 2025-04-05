@@ -12,28 +12,26 @@ API desenvolvida com Spring Boot, JPA e Hibernate. Projetada para gerenciar pedi
 A base de dados iniciei em H2 para testes e migrou para PostgreSQL em produção.
 
 ## 📖 Tabela de Conteúdo
-- [Instalação](#-instalação)
+- [Instalação com Docker](#-instalação)
 - [Como Usar](#-como-usar)
 - [Documentação da API (Swagger)](#-documentação-da-api-swagger)
 - [Endpoints da API](#-endpoints-da-api)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 
-## 💻 Instalação
+## 🐳 Instalação com Docker
 
 1. Clone o repositório
 ```bash
 git clone https://github.com/seu-usuario/sistema-gestao-pedidos.git
+cd order-system
 ```
 
-2. Execute o comando abaixo na raiz do projeto para baixar as dependências e compilar o código:
+2. Execute o Docker Compose:
 ```bash
-   mvn clean install
+   docker-compose up -d
    ```
 
-3. Inicie a aplicação:
-```bash
-   mvn spring-boot:run
-   ```
+O banco de dados será iniciado automaticamente usando um volume Docker chamado pgdata, garantindo persistência dos dados mesmo após parar os containers.
 
 ## 🚀 Como Usar
 
